@@ -9,39 +9,22 @@ usage: fuzzer.py [-h] -t TARGET [-p PORT] [-u TIMEOUT] [-f FILENAME]
                  [-m MAX_PADDING_LENGTH]
 
 optional arguments:
-
   -h, --help            show this help message and exit
-  
   -t TARGET, --target TARGET
-  
                         Target host address
-						
   -p PORT, --port PORT  Target port
-  
   -u TIMEOUT, --timeout TIMEOUT
-  
                         Timeout in seconds
-						
   -f FILENAME, --filename FILENAME
-  
                         Input file
-						
   -a ATTACK_TECHNIQUE, --attack_technique ATTACK_TECHNIQUE
-  
                         Attack techniques types: 0 = original payloads only, 1
-						
                         = byte switch, 2 = length fuzzer
-						
   -v, --verbose         set verbosity
-  
   -b PAD_BYTE, --pad_byte PAD_BYTE
-  
                         fuzz using this pad byte
-						
   -m MAX_PADDING_LENGTH, --max_padding_length MAX_PADDING_LENGTH
-  
                         max size for length fuzz
-						
 
 
 ### Attack techniques
