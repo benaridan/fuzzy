@@ -1,9 +1,9 @@
-#Description
+### Description
 A network service fuzzer that supports also binary protocols.
 The fuzzer expects to get a sample of a typical payload in binary format, then it sends fuzzing requests 
 to the specified host and port.
 
-#Usage
+### Usage
 usage: fuzzer.py [-h] -t TARGET [-p PORT] [-u TIMEOUT] [-f FILENAME]
                  [-a ATTACK_TECHNIQUE] [-v] [-b PAD_BYTE]
                  [-m MAX_PADDING_LENGTH]
@@ -27,7 +27,7 @@ optional arguments:
                         max size for length fuzz
 
 
-#Attack techniques
+### Attack techniques
 Supported attack techniques (specified using the -a argument):
 
 0 - orignal payload only -- just sends the original payload from the file.
